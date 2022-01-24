@@ -1,0 +1,10 @@
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\bin\Debug\SingleResponsibilty.exe.config
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\bin\Debug\SingleResponsibilty.exe
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\bin\Debug\SingleResponsibilty.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.Form1.resources
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.Properties.Resources.resources
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.csproj.GenerateResource.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.exe
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\SOLID\SingleResponsibilty\obj\Debug\SingleResponsibilty.pdb
