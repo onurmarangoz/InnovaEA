@@ -29,7 +29,7 @@ namespace SingleResponsibilty
         {
             string name = textBoxName.Text;
             decimal price = Convert.ToDecimal(textBoxPrice.Text);
-            int affectedRows = new ProductBusiness().AddProduct(name, price);
+            int affectedRows = new ProductBusiness(). AddProduct(name, price);
 
             string message = affectedRows > 0 ? "Kayıt başarılı " : "Kayıt başarısız";
             MessageBox.Show(message);

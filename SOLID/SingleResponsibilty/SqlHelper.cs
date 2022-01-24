@@ -25,6 +25,8 @@ namespace SingleResponsibilty
             return affectedRows;
         }
 
+      
+
         private SqlCommand CreateCommand(string commandText, Dictionary<string, object> parameters)
         {
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
@@ -33,12 +35,14 @@ namespace SingleResponsibilty
             return sqlCommand;
         }
 
+
+      
         private void AddParametersToCommand(SqlCommand sqlCommand, Dictionary<string, object> parameters)
         {
            
             foreach (var parameter in parameters)
             {
-                sqlCommand.Parameters.AddWithValue(parameter.Key,parameter.Value);
+                sqlCommand.Parameters.AddWithValue(parameter.Key,parameter.Value)
             }
         }
     }
