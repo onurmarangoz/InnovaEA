@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilty", "SingleResponsibilty\SingleResponsibilty.csproj", "{5D83FB02-BEDD-4995-A2C3-DAE3491C5931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{F9544CE9-C4BF-479B-B800-D5AB0404CEBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{F9544CE9-C4BF-479B-B800-D5AB0404CEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstution", "LiskovSubstution\LiskovSubstution.csproj", "{4EB3BCF0-8FAF-4E61-8360-9A98466CA310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstution", "LiskovSubstution\LiskovSubstution.csproj", "{4EB3BCF0-8FAF-4E61-8360-9A98466CA310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{F7D191A8-5250-467D-A6BC-6A8D89A11BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{F7D191A8-5250-467D-A6BC-6A8D89A11BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{E464D004-C0C9-417C-80AC-DDBDB1B24C43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F7D191A8-5250-467D-A6BC-6A8D89A11BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7D191A8-5250-467D-A6BC-6A8D89A11BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7D191A8-5250-467D-A6BC-6A8D89A11BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E464D004-C0C9-417C-80AC-DDBDB1B24C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E464D004-C0C9-417C-80AC-DDBDB1B24C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E464D004-C0C9-417C-80AC-DDBDB1B24C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E464D004-C0C9-417C-80AC-DDBDB1B24C43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
