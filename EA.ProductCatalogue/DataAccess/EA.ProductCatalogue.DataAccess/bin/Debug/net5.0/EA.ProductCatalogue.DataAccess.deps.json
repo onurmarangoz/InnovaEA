@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EA.ProductCatalogue.DataAccess/1.0.0": {
+        "dependencies": {
+          "EA.ProductCatalogue.Entities": "1.0.0"
+        },
+        "runtime": {
+          "EA.ProductCatalogue.DataAccess.dll": {}
+        }
+      },
+      "EA.ProductCatalogue.Entities/1.0.0": {
+        "runtime": {
+          "EA.ProductCatalogue.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EA.ProductCatalogue.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EA.ProductCatalogue.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

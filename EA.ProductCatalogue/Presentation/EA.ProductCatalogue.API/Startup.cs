@@ -1,3 +1,5 @@
+using EA.ProductCatalogue.Business;
+using EA.ProductCatalogue.DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +34,10 @@ namespace EA.ProductCatalogue.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EA.ProductCatalogue.API", Version = "v1" });
             });
+
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductRepository, FakeProductRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

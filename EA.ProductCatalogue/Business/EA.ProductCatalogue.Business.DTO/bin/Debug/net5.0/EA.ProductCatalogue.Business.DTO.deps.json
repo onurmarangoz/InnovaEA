@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EA.ProductCatalogue.Business.DTO/1.0.0": {
+        "runtime": {
+          "EA.ProductCatalogue.Business.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EA.ProductCatalogue.Business.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

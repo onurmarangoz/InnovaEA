@@ -1,0 +1,12 @@
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\bin\Debug\net5.0\EA.ProductCatalogue.Business.DTO.deps.json
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\bin\Debug\net5.0\EA.ProductCatalogue.Business.DTO.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\bin\Debug\net5.0\ref\EA.ProductCatalogue.Business.DTO.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\bin\Debug\net5.0\EA.ProductCatalogue.Business.DTO.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\ref\EA.ProductCatalogue.Business.DTO.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business.DTO\obj\Debug\net5.0\EA.ProductCatalogue.Business.DTO.pdb

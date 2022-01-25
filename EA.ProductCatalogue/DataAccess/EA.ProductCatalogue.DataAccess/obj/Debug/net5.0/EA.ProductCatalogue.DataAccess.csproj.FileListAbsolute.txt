@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\bin\Debug\net5.0\EA.ProductCatalogue.DataAccess.deps.json
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\bin\Debug\net5.0\EA.ProductCatalogue.DataAccess.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\bin\Debug\net5.0\ref\EA.ProductCatalogue.DataAccess.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\bin\Debug\net5.0\EA.ProductCatalogue.DataAccess.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\bin\Debug\net5.0\EA.ProductCatalogue.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\bin\Debug\net5.0\EA.ProductCatalogue.Entities.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.csproj.CopyComplete
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\ref\EA.ProductCatalogue.DataAccess.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.pdb

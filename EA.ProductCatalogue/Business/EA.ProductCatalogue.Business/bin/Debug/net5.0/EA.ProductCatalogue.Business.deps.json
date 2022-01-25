@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EA.ProductCatalogue.Business/1.0.0": {
+        "dependencies": {
+          "EA.ProductCatalogue.Business.DTO": "1.0.0",
+          "EA.ProductCatalogue.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "EA.ProductCatalogue.Business.dll": {}
+        }
+      },
+      "EA.ProductCatalogue.Business.DTO/1.0.0": {
+        "runtime": {
+          "EA.ProductCatalogue.Business.DTO.dll": {}
+        }
+      },
+      "EA.ProductCatalogue.DataAccess/1.0.0": {
+        "dependencies": {
+          "EA.ProductCatalogue.Entities": "1.0.0"
+        },
+        "runtime": {
+          "EA.ProductCatalogue.DataAccess.dll": {}
+        }
+      },
+      "EA.ProductCatalogue.Entities/1.0.0": {
+        "runtime": {
+          "EA.ProductCatalogue.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EA.ProductCatalogue.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EA.ProductCatalogue.Business.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EA.ProductCatalogue.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EA.ProductCatalogue.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
