@@ -13,7 +13,6 @@ C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCat
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\EA.ProductCatalogue.Business.AssemblyInfoInputs.cache
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\EA.ProductCatalogue.Business.AssemblyInfo.cs
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\EA.ProductCatalogue.Business.csproj.CoreCompileInputs.cache
-C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\EA.ProductCatalogue.Business.csproj.CopyComplete
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\EA.ProductCatalogue.Business.dll
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\ref\EA.ProductCatalogue.Business.dll
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Business\EA.ProductCatalogue.Business\obj\Debug\net5.0\EA.ProductCatalogue.Business.pdb

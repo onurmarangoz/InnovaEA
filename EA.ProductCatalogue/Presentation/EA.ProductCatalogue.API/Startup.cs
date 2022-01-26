@@ -1,9 +1,11 @@
 using EA.ProductCatalogue.Business;
+using EA.ProductCatalogue.DataAccess.DataContext;
 using EA.ProductCatalogue.DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -37,7 +39,9 @@ namespace EA.ProductCatalogue.API
 
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProductRepository, FakeProductRepository>();
-
+            var connectionString = Configuration.GetConnectionString("db");
+            services.AddDbContext<EADbContext>(option => option.UseSqlServer(connectionString));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

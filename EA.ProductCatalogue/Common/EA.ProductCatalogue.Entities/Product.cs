@@ -10,8 +10,10 @@ namespace EA.ProductCatalogue.Entities
    public class Product : EntityBase
     {
         [Required(ErrorMessage = "Ürün adı boş olamaz")]
+        [MaxLength(100)]
         public string Name { get; set; }
         [Required]
+        [DataType(DataType.Currency)]
         public decimal Price { get; set; }
         public int? StockCount { get; set; }
         public string Description { get; set; }
