@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\DataAccess\EA.ProductCatalogue.DataAccess\EA.ProductCatalogue.DataAccess.csproj" />
     <ProjectReference Include="..\EA.ProductCatalogue.Business.DTO\EA.ProductCatalogue.Business.DTO.csproj" />
   </ItemGroup>

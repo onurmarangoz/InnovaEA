@@ -1,4 +1,5 @@
-﻿using EA.ProductCatalogue.Business.DTO.Responses;
+﻿using EA.ProductCatalogue.Business.DTO.Requests;
+using EA.ProductCatalogue.Business.DTO.Responses;
 using EA.ProductCatalogue.Entities;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,7 @@ namespace EA.ProductCatalogue.Business
    public interface IProductService
     {
         Task<IList<ProductListResponse>> GetProducts();
+        Task<Product> AddProduct(AddProductRequest product);
+        Task<ProductListResponse> GetProductById(int id);
     }
 }

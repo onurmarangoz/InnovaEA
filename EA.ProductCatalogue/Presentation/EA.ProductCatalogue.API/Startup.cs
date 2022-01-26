@@ -1,4 +1,5 @@
 using EA.ProductCatalogue.Business;
+using EA.ProductCatalogue.Business.MappingProfile;
 using EA.ProductCatalogue.DataAccess.DataContext;
 using EA.ProductCatalogue.DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
@@ -38,10 +39,10 @@ namespace EA.ProductCatalogue.API
             });
 
             services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IProductRepository, FakeProductRepository>();
+            services.AddScoped<IProductRepository, EFProductRepository>();
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<EADbContext>(option => option.UseSqlServer(connectionString));
-            
+            services.AddAutoMapper(typeof(RequestMappinProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

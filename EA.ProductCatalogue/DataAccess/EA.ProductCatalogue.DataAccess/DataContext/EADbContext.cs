@@ -26,7 +26,7 @@ namespace EA.ProductCatalogue.DataAccess.DataContext
                                            .WithOne(p => p.Category)
                                            .HasForeignKey(p => p.CategoryId)
                                            .OnDelete(DeleteBehavior.SetNull);
-
+           
 
             //modelBuilder.Entity<Product>().HasOne(x=>x.Category)
             //                              .WithMany(c=>c.Products)

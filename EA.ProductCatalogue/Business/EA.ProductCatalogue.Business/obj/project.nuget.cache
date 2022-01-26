@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Q/CEDz2jG6kkKrbjA1ha4T++HXTsOwexmRfGhJbWb0ob7Af2DxFiDG2RbkB9P6uiO8OWU19tUnh8wK77H+Y5VA==",
+  "dgSpecHash": "EaJd12PSFFLlvpeKDXqDBBBgYRMU6U//kyoZVXg4bxs++GGXYZiuiXY8QOEkPHdvTdEZz5zfM86PvPOrkfCHVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\Business\\EA.ProductCatalogue.Business\\EA.ProductCatalogue.Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\turka\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\turka\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\turka\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\turka\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.13\\microsoft.entityframeworkcore.5.0.13.nupkg.sha512",
