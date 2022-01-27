@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using EA.ProductCatalogue.Business.DTO.Requests;
 using AutoMapper;
+using Spesifications;
 
 namespace EA.ProductCatalogue.Business
 {
@@ -27,15 +28,22 @@ namespace EA.ProductCatalogue.Business
 
         public async Task<Product> AddProduct(AddProductRequest product)
         {
+            AddProductRequestSpesification requestSpesification = new AddProductRequestSpesification();
 
             if (product == null)
             {
                 throw new ArgumentNullException("product");
             }
 
+           
             var entity = product.ConvertToEntity(mapper);
-            await repository.Add(entity);
-            return entity;
+            if (requestSpesification.IsSatisfy(entity))
+            {
+                await repository.Add(entity);
+                return entity;
+            }
+            requestSpesification.Notify();
+            throw new Exception();
         }
 
         public async Task Delete(int id)

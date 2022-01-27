@@ -15,3 +15,4 @@ C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCat
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\ref\EA.ProductCatalogue.DataAccess.dll
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.pdb
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\DataAccess\EA.ProductCatalogue.DataAccess\obj\Debug\net5.0\EA.ProductCatalogue.DataAccess.csproj.CopyComplete

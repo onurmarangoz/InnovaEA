@@ -1634,7 +1634,8 @@
         "dependencies": {
           "AutoMapper": "11.0.0",
           "EA.ProductCatalogue.Business.DTO": "1.0.0",
-          "EA.ProductCatalogue.DataAccess": "1.0.0"
+          "EA.ProductCatalogue.DataAccess": "1.0.0",
+          "Spesifications": "1.0.0"
         },
         "compile": {
           "bin/placeholder/EA.ProductCatalogue.Business.dll": {}
@@ -1676,6 +1677,19 @@
         },
         "runtime": {
           "bin/placeholder/EA.ProductCatalogue.Entities.dll": {}
+        }
+      },
+      "Spesifications/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EA.ProductCatalogue.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Spesifications.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Spesifications.dll": {}
         }
       }
     }
@@ -6109,6 +6123,11 @@
       "type": "project",
       "path": "../../Common/EA.ProductCatalogue.Entities/EA.ProductCatalogue.Entities.csproj",
       "msbuildProject": "../../Common/EA.ProductCatalogue.Entities/EA.ProductCatalogue.Entities.csproj"
+    },
+    "Spesifications/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Spesifications/Spesifications.csproj",
+      "msbuildProject": "../../Common/Spesifications/Spesifications.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -43,6 +43,12 @@ namespace EA.ProductCatalogue.API
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<EADbContext>(option => option.UseSqlServer(connectionString));
             services.AddAutoMapper(typeof(RequestMappinProfile));
+
+            services.AddCors(option => option.AddPolicy("allow", builder => {
+                builder.AllowAnyHeader();
+                builder.AllowAnyMethod();
+                builder.AllowAnyOrigin();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +64,7 @@ namespace EA.ProductCatalogue.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("allow");
 
             app.UseAuthorization();
 

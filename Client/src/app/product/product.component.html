@@ -1,0 +1,9 @@
+<div *ngFor="let product of products">
+    <div>
+        <h3>{{product.name}}</h3>
+        <hr>
+        <p>{{product.description}} {{product.price}}</p>
+        <p> indirim: {{ product.discount }}</p>
+    </div>
+    <hr>
+</div>

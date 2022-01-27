@@ -1528,6 +1528,19 @@
         "runtime": {
           "bin/placeholder/EA.ProductCatalogue.Entities.dll": {}
         }
+      },
+      "Spesifications/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EA.ProductCatalogue.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Spesifications.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Spesifications.dll": {}
+        }
       }
     }
   },
@@ -5771,13 +5784,19 @@
       "type": "project",
       "path": "../../Common/EA.ProductCatalogue.Entities/EA.ProductCatalogue.Entities.csproj",
       "msbuildProject": "../../Common/EA.ProductCatalogue.Entities/EA.ProductCatalogue.Entities.csproj"
+    },
+    "Spesifications/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Spesifications/Spesifications.csproj",
+      "msbuildProject": "../../Common/Spesifications/Spesifications.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 11.0.0",
       "EA.ProductCatalogue.Business.DTO >= 1.0.0",
-      "EA.ProductCatalogue.DataAccess >= 1.0.0"
+      "EA.ProductCatalogue.DataAccess >= 1.0.0",
+      "Spesifications >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5809,6 +5828,9 @@
           "projectReferences": {
             "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\Business\\EA.ProductCatalogue.Business.DTO\\EA.ProductCatalogue.Business.DTO.csproj": {
               "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\Business\\EA.ProductCatalogue.Business.DTO\\EA.ProductCatalogue.Business.DTO.csproj"
+            },
+            "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\Common\\Spesifications\\Spesifications.csproj": {
+              "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\Common\\Spesifications\\Spesifications.csproj"
             },
             "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\DataAccess\\EA.ProductCatalogue.DataAccess\\EA.ProductCatalogue.DataAccess.csproj": {
               "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Innova\\enterpriseArchitecture\\EA.ProductCatalogue\\DataAccess\\EA.ProductCatalogue.DataAccess\\EA.ProductCatalogue.DataAccess.csproj"

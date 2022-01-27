@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\bin\Debug\net5.0\Spesifications.deps.json
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\bin\Debug\net5.0\Spesifications.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\bin\Debug\net5.0\ref\Spesifications.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\bin\Debug\net5.0\Spesifications.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\bin\Debug\net5.0\EA.ProductCatalogue.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\bin\Debug\net5.0\EA.ProductCatalogue.Entities.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.csproj.CopyComplete
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\ref\Spesifications.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Common\Spesifications\obj\Debug\net5.0\Spesifications.pdb

@@ -73,3 +73,5 @@ C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCat
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Presentation\EA.ProductCatalogue.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Presentation\EA.ProductCatalogue.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Presentation\EA.ProductCatalogue.API\obj\Debug\net5.0\EA.ProductCatalogue.API.csproj.CopyComplete
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Presentation\EA.ProductCatalogue.API\bin\Debug\net5.0\Spesifications.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\EA.ProductCatalogue\Presentation\EA.ProductCatalogue.API\bin\Debug\net5.0\Spesifications.pdb

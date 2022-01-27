@@ -11,17 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presention", "Presention", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B010E9E3-4CD5-4FB2-824E-0C3D33AB754B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProductCatalogue.Entities", "Common\EA.ProductCatalogue.Entities\EA.ProductCatalogue.Entities.csproj", "{3C273763-F7E7-4517-9B64-482A50867D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.ProductCatalogue.Entities", "Common\EA.ProductCatalogue.Entities\EA.ProductCatalogue.Entities.csproj", "{3C273763-F7E7-4517-9B64-482A50867D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProductCatalogue.API", "Presentation\EA.ProductCatalogue.API\EA.ProductCatalogue.API.csproj", "{72870751-5EC0-4AC4-AD55-95D55A01D82A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.ProductCatalogue.API", "Presentation\EA.ProductCatalogue.API\EA.ProductCatalogue.API.csproj", "{72870751-5EC0-4AC4-AD55-95D55A01D82A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProductCatalogue.Business", "Business\EA.ProductCatalogue.Business\EA.ProductCatalogue.Business.csproj", "{935796EC-BA73-4A23-9DC8-AA5AD284672A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.ProductCatalogue.Business", "Business\EA.ProductCatalogue.Business\EA.ProductCatalogue.Business.csproj", "{935796EC-BA73-4A23-9DC8-AA5AD284672A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProductCatalogue.DataAccess", "DataAccess\EA.ProductCatalogue.DataAccess\EA.ProductCatalogue.DataAccess.csproj", "{B0101309-F406-4160-A42F-94033D6AB378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.ProductCatalogue.DataAccess", "DataAccess\EA.ProductCatalogue.DataAccess\EA.ProductCatalogue.DataAccess.csproj", "{B0101309-F406-4160-A42F-94033D6AB378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProductCatalogue.Common.Logging", "Common\EA.ProductCatalogue.Common.Logging\EA.ProductCatalogue.Common.Logging.csproj", "{D30469F8-6885-4B65-B771-B290C3BBDD67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.ProductCatalogue.Common.Logging", "Common\EA.ProductCatalogue.Common.Logging\EA.ProductCatalogue.Common.Logging.csproj", "{D30469F8-6885-4B65-B771-B290C3BBDD67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.ProductCatalogue.Business.DTO", "Business\EA.ProductCatalogue.Business.DTO\EA.ProductCatalogue.Business.DTO.csproj", "{0A0C2564-1F54-4F39-8920-51512ECBB96F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.ProductCatalogue.Business.DTO", "Business\EA.ProductCatalogue.Business.DTO\EA.ProductCatalogue.Business.DTO.csproj", "{0A0C2564-1F54-4F39-8920-51512ECBB96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spesifications", "Common\Spesifications\Spesifications.csproj", "{01C2467B-E8A6-41AA-835D-AFA077995ECB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{0A0C2564-1F54-4F39-8920-51512ECBB96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A0C2564-1F54-4F39-8920-51512ECBB96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A0C2564-1F54-4F39-8920-51512ECBB96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C2467B-E8A6-41AA-835D-AFA077995ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C2467B-E8A6-41AA-835D-AFA077995ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C2467B-E8A6-41AA-835D-AFA077995ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C2467B-E8A6-41AA-835D-AFA077995ECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{B0101309-F406-4160-A42F-94033D6AB378} = {85485E6C-679D-46AE-BDB1-6B6FF519F96C}
 		{D30469F8-6885-4B65-B771-B290C3BBDD67} = {B010E9E3-4CD5-4FB2-824E-0C3D33AB754B}
 		{0A0C2564-1F54-4F39-8920-51512ECBB96F} = {EA364A0C-3EC3-43FC-B357-C7EEF131B7C6}
+		{01C2467B-E8A6-41AA-835D-AFA077995ECB} = {B010E9E3-4CD5-4FB2-824E-0C3D33AB754B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A86AB86-6A92-403C-AEFE-6A75435460F5}

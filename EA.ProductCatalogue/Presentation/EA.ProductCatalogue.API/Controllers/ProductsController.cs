@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EA.ProductCatalogue.API.Filter;
 
 namespace EA.ProductCatalogue.API.Controllers
 {
@@ -46,44 +47,32 @@ namespace EA.ProductCatalogue.API.Controllers
                 // TODO 1: Exception Handling kavramını .NET Core middleware ya da filter ile yaz:
                 var addedProduct = await productService.AddProduct(product);
                 return CreatedAtAction(nameof(GetById), new { id = addedProduct.Id }, addedProduct);
-
-
             }
 
             return BadRequest(ModelState);
         }
 
         [HttpPut("{id}")]
+        [ProductExist]
         public async Task<IActionResult> Update(int id, UpdateProductRequest updateProductRequest)
         {
 
-            if (await productService.ProductIsExist(id))
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    Product updatedProduct = await productService.UpdateProduct(updateProductRequest);
-                    return Ok(updateProductRequest);
-                }
-
-                return BadRequest(ModelState);
+                Product updatedProduct = await productService.UpdateProduct(updateProductRequest);
+                return Ok(updateProductRequest);
             }
 
-            return NotFound();
-
-
+            return BadRequest(ModelState);
         }
         [HttpDelete("{id}")]
+        [ProductExist]
         public async Task<IActionResult> Delete(int id)
         {
-            if (await productService.ProductIsExist(id))
-            {
-                await productService.Delete(id);
-                return Ok();
-                     
-            }
-            return NotFound();
+            await productService.Delete(id);
+            return Ok();
 
-        } 
+        }
 
     }
 }
