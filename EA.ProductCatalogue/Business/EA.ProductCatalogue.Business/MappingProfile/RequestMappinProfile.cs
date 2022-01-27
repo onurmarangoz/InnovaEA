@@ -16,7 +16,7 @@ namespace EA.ProductCatalogue.Business.MappingProfile
         {
             CreateMap<AddProductRequest, Product>();
             CreateMap<Product, ProductListResponse>().ReverseMap();
-
+            CreateMap<UpdateProductRequest, Product>();
         }
     }
 }

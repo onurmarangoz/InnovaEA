@@ -27,23 +27,48 @@ namespace EA.ProductCatalogue.Business
 
         public async Task<Product> AddProduct(AddProductRequest product)
         {
+
+            if (product == null)
+            {
+                throw new ArgumentNullException("product");
+            }
+
             var entity = product.ConvertToEntity(mapper);
             await repository.Add(entity);
             return entity;
         }
 
+        public async Task Delete(int id)
+        {
+           await  repository.Delete(id);
+
+        }
+
         public async Task<ProductListResponse> GetProductById(int id)
         {
-           Product  product = await repository.GetById(id);
+            Product product = await repository.GetById(id);
             return product.ConvertToResponseDto(mapper);
         }
 
         public async Task<IList<ProductListResponse>> GetProducts()
         {
             IList<Product> products = await repository.GetAll();
-            
-            
+
+
             return products.ConvertToResponseDto(mapper);
+        }
+
+        public async Task<bool> ProductIsExist(int id)
+        {
+            return await repository.IsEntityExist(id);
+        }
+
+        public async Task<Product> UpdateProduct(UpdateProductRequest updateProductRequest)
+        {
+            var productEntity = updateProductRequest.ConvertToEntity(mapper);
+            var affectedRow = await repository.Update(productEntity);
+
+            return affectedRow > 0 ? productEntity : null;
         }
     }
 }

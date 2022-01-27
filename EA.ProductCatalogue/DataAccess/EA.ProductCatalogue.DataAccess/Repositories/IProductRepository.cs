@@ -10,5 +10,6 @@ namespace EA.ProductCatalogue.DataAccess.Repositories
     public interface IProductRepository : IRepository<Product>
     {
         Task<IEnumerable<Product>> SearchProductsByName(string name);
+        
     }
 }

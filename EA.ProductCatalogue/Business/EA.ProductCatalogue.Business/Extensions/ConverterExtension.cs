@@ -39,6 +39,9 @@ namespace EA.ProductCatalogue.Business.Extensions
             return mapper.Map<ProductListResponse>(product);
         }
 
+        public static Product ConvertToEntity(this UpdateProductRequest request, IMapper mapper) => mapper.Map<Product>(request);
+        
+
 
     }
 }

@@ -15,8 +15,10 @@ namespace EA.ProductCatalogue.DataAccess.Repositories
         Task<int> Update(TEntity entity);
         Task<int> Delete(TEntity entity);
         Task<TEntity> GetById(int id);
-
         Task<IList<TEntity>> GetWithCriteria(Expression<Func<bool, TEntity>> criteria);
+        Task<bool> IsEntityExist(int id);
+
+        Task Delete(int id);
 
     }
 }

@@ -43,12 +43,47 @@ namespace EA.ProductCatalogue.API.Controllers
         {
             if (ModelState.IsValid)
             {
+                // TODO 1: Exception Handling kavramını .NET Core middleware ya da filter ile yaz:
                 var addedProduct = await productService.AddProduct(product);
                 return CreatedAtAction(nameof(GetById), new { id = addedProduct.Id }, addedProduct);
+
 
             }
 
             return BadRequest(ModelState);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, UpdateProductRequest updateProductRequest)
+        {
+
+            if (await productService.ProductIsExist(id))
+            {
+                if (ModelState.IsValid)
+                {
+                    Product updatedProduct = await productService.UpdateProduct(updateProductRequest);
+                    return Ok(updateProductRequest);
+                }
+
+                return BadRequest(ModelState);
+            }
+
+            return NotFound();
+
+
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (await productService.ProductIsExist(id))
+            {
+                await productService.Delete(id);
+                return Ok();
+                     
+            }
+            return NotFound();
+
+        } 
+
     }
 }

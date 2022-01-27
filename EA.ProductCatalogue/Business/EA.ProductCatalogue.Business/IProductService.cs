@@ -14,5 +14,8 @@ namespace EA.ProductCatalogue.Business
         Task<IList<ProductListResponse>> GetProducts();
         Task<Product> AddProduct(AddProductRequest product);
         Task<ProductListResponse> GetProductById(int id);
+        Task<Product> UpdateProduct(UpdateProductRequest updateProductRequest);
+        Task<bool> ProductIsExist(int id);
+        Task Delete(int id);
     }
 }

@@ -14,11 +14,11 @@ namespace EA.ProductCatalogue.DataAccess.Repositories
     {
         private EADbContext context;
 
-      
+
         public EFProductRepository(EADbContext context)
         {
             this.context = context;
-         
+
         }
         public async Task<int> Add(Product entity)
         {
@@ -27,9 +27,17 @@ namespace EA.ProductCatalogue.DataAccess.Repositories
 
         }
 
-        public Task<int> Delete(Product entity)
+        public async Task<int> Delete(Product entity)
         {
-            throw new NotImplementedException();
+            context.Products.Remove(entity);
+            return  await context.SaveChangesAsync();
+
+        }
+
+        public async Task Delete(int id)
+        {
+            var product = await context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            await Delete(product);
         }
 
         public async Task<IList<Product>> GetAll()
@@ -48,14 +56,23 @@ namespace EA.ProductCatalogue.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
+        public async Task<bool> IsEntityExist(int id)
+        {
+            var isEntityExists = await context.Products.AnyAsync(x => x.Id == id);
+            return isEntityExists;
+        }
+
         public Task<IEnumerable<Product>> SearchProductsByName(string name)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> Update(Product entity)
+        public async Task<int> Update(Product entity)
         {
-            throw new NotImplementedException();
+            
+            context.Products.Update(entity);
+            return await context.SaveChangesAsync();
+
         }
     }
 }
