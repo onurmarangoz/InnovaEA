@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\FizzBuzz.exe
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\FizzBuzz.deps.json
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\FizzBuzz.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\FizzBuzz.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\FizzBuzz.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\ref\FizzBuzz.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\bin\Debug\net5.0\FizzBuzz.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\ref\FizzBuzz.dll
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.pdb
+C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\TestDriven\Solution1\FizzBuzz\obj\Debug\net5.0\FizzBuzz.genruntimeconfig.cache

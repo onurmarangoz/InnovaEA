@@ -1,4 +1,7 @@
+<input type="text" #test name="" id="">
+<button (click)="showData(test)"></button>
 <div *ngFor="let product of products">
+    
     <div>
         <h3>{{product.name}}</h3>
         <hr>

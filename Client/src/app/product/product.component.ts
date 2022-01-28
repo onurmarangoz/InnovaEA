@@ -18,4 +18,8 @@ export class ProductComponent implements OnInit {
                         .subscribe((data:Product[])=>this.products=data);
   }
 
+  showData(event:HTMLInputElement){
+    console.log(event);
+  }
+
 }
